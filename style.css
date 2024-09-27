@@ -1,0 +1,223 @@
+/* geral da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* header */
+#titulo {
+    font-size: 50pxpx;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+.header img {
+    height: 60px;
+}
+
+.botaoheader {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+/* Estilos para o ícone do Instagram */
+#instagram-link {
+    font-size: 20px;
+    color: #ffffff; 
+    transition: color 0.3s ease;
+}
+
+#instagram-link:hover {
+    color: #9b2c4d; 
+}
+
+#botaoheader {
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botaoheader:hover {
+    background-color: #0056b3;
+}
+
+/* quem somos */
+.somosgeral {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.somosgeral h2 {
+    color: #004d66;
+    margin-bottom: 20px;
+}
+
+/* galeria de fotos */
+#galtitulo {
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.galeria h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.galeria img {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.foto-destaque {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.foto-destaque img {
+    width: 575px; 
+    max-width: 1200px; 
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.foto-destaque img:hover {
+    transform: scale(1.05); 
+}
+
+/* botão */
+#botao {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+}
+
+#botao:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .galeria img {
+        width: 100%;
+    }
+}
+
+/*nossos serviços */
+#servicos {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.servico img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.servico h3 {
+    margin-bottom: 10px;
+    color: #004d66;
+}
+
+/*depoimentos*/
+#depoimentos {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.depoimentos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.depoimento {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.depoimento p {
+    font-style: italic;
+    color: #555;
+}
+
+.depoimento h4 {
+    margin-top: 10px;
+    color: #004d66;
+}
+
+/*botao fixo de contato */
+.cta-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.cta-fixo:hover {
+    background-color: #0056b3;
+}
