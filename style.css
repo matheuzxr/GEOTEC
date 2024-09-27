@@ -101,7 +101,7 @@ body {
 }
 
 .foto-destaque img {
-    width: 100%; 
+    width: 630px; 
     max-width: 100%; 
     height: auto;
     transition: transform 0.3s;
