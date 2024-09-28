@@ -69,7 +69,6 @@ body {
 }
 
 /* galeria de fotos */
-
 .galeria {
     display: flex;
     justify-content: center; 
@@ -84,6 +83,8 @@ body {
 }
 
 .galeria img {
+    border: solid 5px #1c5ca0;
+    border-radius: 15px;
     text-align: center;
     width: 300px;
     height: 200px;
@@ -95,13 +96,21 @@ body {
     transform: scale(1.1);
 }
 
+#foto4 {
+    width: auto;
+    height: 200px; 
+}
+
 .foto-destaque {
     text-align: center; 
     margin: 20px 0;
 }
 
 .foto-destaque img {
-    max-width: 100%; 
+    border: solid 5px #1c5ca0;
+    border-radius: 15px;
+    width: 575px; 
+    max-width: 1200px; 
     height: auto;
     transition: transform 0.3s;
 }
