@@ -108,10 +108,8 @@ body {
 
 .foto-destaque img {
     border: solid 5px #1c5ca0;
-    border-radius: 15px;
-    width: 575px; 
+    border-radius: 15px; 
     max-width: 100%; 
-    height: auto;
     transition: transform 0.3s;
 }
 
