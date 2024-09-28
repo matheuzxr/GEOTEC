@@ -110,7 +110,7 @@ body {
     border: solid 5px #1c5ca0;
     border-radius: 15px;
     width: 575px; 
-    max-width: 1200px; 
+    max-width: 100%; 
     height: auto;
     transition: transform 0.3s;
 }
